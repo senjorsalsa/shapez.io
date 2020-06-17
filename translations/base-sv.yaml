@@ -18,10 +18,9 @@
 #    If you want to add a new language, ask me in the discord and I will setup
 #    the basic structure so the game also detects it.
 #
-
 steamPage:
     # This is the short text appearing on the steam page
-    shortText: shapez.io is a game about building factories to automate the creation and combination of increasingly complex shapes within an infinite map.
+    shortText: shapez.io är ett spel där du bygger fabriker för att automatisera skapandet och kombinerandet av allt mer komplicerade former på en oändlig karta.
 
     # This is the long description for the steam page - It is contained here so you can help to translate it, and I will regulary update the store page.
     # NOTICE:
@@ -30,46 +29,46 @@ steamPage:
     longText: >-
         [img]{STEAM_APP_IMAGE}/extras/store_page_gif.gif[/img]
 
-        shapez.io is a game about building factories to automate the creation and combination of shapes. Deliver the requested, increasingly complex shapes to progress within the game and unlock upgrades to speed up your factory.
+        shapez.io är ett spel där du bygger fabriker för att automatisera skapandet och kombinerandet av former. Leverera den efterfrågade, allt mer komplicerade formen för att komma vidare i spelet och låsa upp nya uppgraderingar till din fabrik.
 
-        Since the demand raises you will have to scale up your factory to fit the needs - Don't forget about resources though, you will have to expand in the [b]infinite map[/b]!
+        Då efterfrågan ökar efter hand kommer du behöva skala upp fabriken för att matcha den. - Glöm inte resurserna, du kommer behöva expandera i den [b]oändliga kartan[/b]!
 
-        Since shapes can get boring soon you need to mix colors and paint your shapes with it - Combine red, green and blue color resources to produce different colors and paint shapes with it to satisfy the demand.
+        Eftersom former kan bli tråkigt snabbt så kommer du mixa färger och måla formerna. Kombinera röd, grön och blå för att producera olika färger och måla formerna enligt efterfrågan.
 
-        This game features 18 levels (Which should keep you busy for hours already!) but I'm constantly adding new content - There is a lot planned!
+        Spelet har 18 nivåer (vilket kommer hålla dig upptagen i timmar redan!) men jag lägger hela tiden till nytt innehåll - Det finns mycket nytt planerat!
+        
 
-
-        [b]Standalone Advantages[/b]
-
-        [list]
-            [*] Waypoints
-            [*] Unlimited Savegames
-            [*] Dark Mode
-            [*] More settings
-            [*] Allow me to further develop shapez.io ❤️
-            [*] More features in the future!
-        [/list]
-
-        [b]Planned features & Community suggestions[/b]
-
-        This game is open source - Anybody can contribute! Besides of that, I listen [b]a lot[/b] to the community! I try to read all suggestions and take as much feedback into account as possible.
+        [b]Fördelar med standalone versionen[/b]
 
         [list]
-            [*] Story mode where buildings cost shapes
-            [*] More levels & buildings (standalone exclusive)
-            [*] Different maps, and maybe map obstacles
-            [*] Configurable map creation (Edit number and size of patches, seed, and more)
-            [*] More types of shapes
-            [*] More performance improvements (Although the game already runs pretty good!)
-            [*] Color blind mode
-            [*] And much more!
+            [*] Landmärken
+            [*] Oändlig sparfunktion
+            [*] Mörkt läge
+            [*] Fler inställningar
+            [*] Främjar fortsatt utveckling av shapez.io ❤️
+            [*] Fler verktyg kommer!
         [/list]
 
-        Be sure to check out my trello board for the full roadmap! https://trello.com/b/ISQncpJP/shapezio
+        [b]Planerade ändringar & förslag från följare[/b]
+
+        Detta spelet är open source - Vem som helst kan bidra! Utöver det så lyffnas jag [b]mycket[/b] på spelarna! Jag försöker läsa alla förslag och få så mycket feedback som möjligt.
+
+        [list]
+            [*] Storyläge, där byggnader kostar formerna du skapar
+            [*] Fler nivåer & byggnader (endast för standalone)
+            [*] Nya kartor, och kanske hinder
+            [*] Inställningsbar karta (Ändra storlek och antal resurser, seed, och mer)
+            [*] Fler former
+            [*] Förbättringar till prestandan (Spelet körs dock bra just nu!)
+            [*] Färgblint läge
+            [*] Och mycket mer!
+        [/list]
+
+        Ta gärna en titt på mitt trello board för hela roadpamen! https://trello.com/b/ISQncpJP/shapezio
 
 global:
-    loading: Loading
-    error: Error
+    loading: Laddar
+    error: Fel
 
     # How big numbers are rendered, e.g. "10,000"
     thousandsDivider: ","
@@ -86,21 +85,21 @@ global:
 
     time:
         # Used for formatting past time dates
-        oneSecondAgo: one second ago
-        xSecondsAgo: <x> seconds ago
-        oneMinuteAgo: one minute ago
-        xMinutesAgo: <x> minutes ago
-        oneHourAgo: one hour ago
-        xHoursAgo: <x> hours ago
-        oneDayAgo: one day ago
-        xDaysAgo: <x> days ago
+        oneSecondAgo: en sekund sedan
+        xSecondsAgo: <x> sekunder sedan
+        oneMinuteAgo: en minut sedan
+        xMinutesAgo: <x> minuter sedan
+        oneHourAgo: en timme sedan
+        xHoursAgo: <x> timmar sedan
+        oneDayAgo: en dag sedan
+        xDaysAgo: <x> dagar sedan
 
         # Short formats for times, e.g. '5h 23m'
         secondsShort: <seconds>s
         minutesAndSecondsShort: <minutes>m <seconds>s
-        hoursAndMinutesShort: <hours>h <minutes>s
+        hoursAndMinutesShort: <hours>t <minutes>s
 
-        xMinutes: <x> minutes
+        xMinutes: <x> minuter
 
     keys:
         tab: TAB
@@ -108,78 +107,78 @@ global:
         alt: ALT
         escape: ESC
         shift: SHIFT
-        space: SPACE
+        space: MELLANSLAG
 
 demoBanners:
     # This is the "advertisement" shown in the main menu and other various places
     title: Demo Version
     intro: >-
-        Get the standalone to unlock all features!
+        Skaffa standalone versionen för alla funktioner!
 
 mainMenu:
-    play: Play
-    changelog: Changelog
+    play: Spela
+    changelog: Ändringar
     importSavegame: Import
-    openSourceHint: This game is open source!
-    discordLink: Official Discord Server
-    helpTranslate: Help translate!
+    openSourceHint: Detta spelet är open source!
+    discordLink: Officiella Discord Servern
+    helpTranslate: Hjälp med översättning!
 
     # This is shown when using firefox and other browsers which are not supported.
     browserWarning: >-
-        Sorry, but the game is known to run slow on your browser! Get the standalone version or download chrome for the full experience.
+        Beklagar, men spelet körs långsamt i din webbläsare! Skaffa den fristående versionen eller ladda ner Chrome för bäst upplevelse.
 
-    savegameLevel: Level <x>
-    savegameLevelUnknown: Unknown Level
+    savegameLevel: Nivå <x>
+    savegameLevelUnknown: Okänd nivå
 
     contests:
         contest_01_03062020:
-            title: "Contest #01"
-            desc: Win <strong>$25</strong> for the coolest base!
+            title: "Tävling #01"
+            desc: Vinn <strong>$25</strong> för den häftigaste basen!
             longDesc: >-
-                To give something back to you, I thought it would be cool to make weekly contests!
+                För att ge något tillbaka till er, tänkte jag att det skulle vara kul med tävlingar varje vecka!
                 <br><br>
-                <strong>This weeks topic:</strong> Build the coolest base!
+                <strong>Veckans tema:</strong> Bygg den häftigaste basen!
                 <br><br>
-                Here's the deal:<br>
+                Såhär gör du:<br>
                 <ul class="bucketList">
-                    <li>Submit a screenshot of your base to <strong>contest@shapez.io</strong></li>
-                    <li>Bonus points if you share it on social media!</li>
-                    <li>I will choose 5 screenshots and propose it to the <strong>discord</strong> community to vote.</li>
-                    <li>The winner gets <strong>$25</strong> (Paypal, Amazon Gift Card, whatever you prefer)</li>
+                    <li>Skicka ett skärmklipp på din bas till <strong>contest@shapez.io</strong></li>
+                    <li>Bonuspoäng om du delar på sociala medier!</li>
+                    <li>Jag väljer ut 5 skärmklipp och delar med vår <strong>discord</strong> för omröstning.</li>
+                    <li>Vinnaren får <strong>$25</strong> (Paypal, Amazon Presentkort, vilket du än föredrar)</li>
                     <li>Deadline: 07.06.2020 12:00 AM CEST</li>
                 </ul>
                 <br>
-                I'm looking forward to seeing your awesome creations!
+                Jag ser fram emot att se era fantastiska skapelser!
 
-        showInfo: View
-        contestOver: This contest has ended - Join the discord to get noticed about new contests!
-    continue: Continue
-    newGame: New Game
-    madeBy: Made by <author-link>
+        showInfo: Visa
+        contestOver: Tävlingen är avslutad - Följ vår discord för information om nya tävlingar!
+    continue: Fortsätt
+    newGame: Nytt spel
+    madeBy: Gjord av <author-link>
 
 dialogs:
     buttons:
         ok: OK
-        delete: Delete
-        cancel: Cancel
-        later: Later
-        restart: Restart
-        reset: Reset
-        getStandalone: Get Standalone
-        deleteGame: I know what I do
-        viewUpdate: View Update
-        showUpgrades: Show Upgrades
-        showKeybindings: Show Keybindings
+        delete: Ta bort
+        cancel: Ångra
+        later: Senare
+        restart: Omstart
+        reset: Återställ
+        getStandalone: Skaffa standalone
+        deleteGame: Jag vet vad jag gör
+        viewUpdate: Uppdateringar
+        showUpgrades: Uppgraderingar
+        showKeybindings: Snabbtangenter
 
     importSavegameError:
-        title: Import Error
+        title: Import Fel
         text: >-
-            Failed to import your savegame:
+            Misslyckad import av din sparade fil
 
     importSavegameSuccess:
-        title: Savegame Imported
+        title: Sparat spel importerat
         text: >-
-            Your savegame has been successfully imported.
+            Din sparade fil har importerats utan fel.
 
     gameLoadFailure:
         title: Game is broken
