@@ -106,7 +106,7 @@ global:
         control: CTRL
         alt: ALT
         escape: ESC
-        shift: SHIFT
+        shift: SKIFT
         space: MELLANSLAG
 
 demoBanners:
@@ -118,14 +118,14 @@ demoBanners:
 mainMenu:
     play: Spela
     changelog: Ändringar
-    importSavegame: Import
+    importSavegame: Importera
     openSourceHint: Detta spelet är open source!
-    discordLink: Officiella Discord Servern
+    discordLink: Officiell Discord Server
     helpTranslate: Hjälp med översättning!
 
     # This is shown when using firefox and other browsers which are not supported.
     browserWarning: >-
-        Beklagar, men spelet körs långsamt i din webbläsare! Skaffa den fristående versionen eller ladda ner Chrome för bäst upplevelse.
+        Beklagar, men spelet körs långsamt i din webbläsare! Skaffa den fristående versionen eller ladda ner Chrome för bästa upplevelse.
 
     savegameLevel: Nivå <x>
     savegameLevelUnknown: Okänd nivå
@@ -154,7 +154,7 @@ mainMenu:
         contestOver: Tävlingen är avslutad - Följ vår discord för information om nya tävlingar!
     continue: Fortsätt
     newGame: Nytt spel
-    madeBy: Gjord av <author-link>
+    madeBy: Gjort av <author-link>
 
 dialogs:
     buttons:
@@ -164,7 +164,7 @@ dialogs:
         later: Senare
         restart: Omstart
         reset: Återställ
-        getStandalone: Skaffa standalone
+        getStandalone: Skaffa fristående spelversion
         deleteGame: Jag vet vad jag gör
         viewUpdate: Uppdateringar
         showUpgrades: Uppgraderingar
@@ -181,78 +181,78 @@ dialogs:
             Din sparade fil har importerats utan fel.
 
     gameLoadFailure:
-        title: Game is broken
+        title: Sparad fil korrupt
         text: >-
-            Failed to load your savegame:
+            Kunde inte ladda din sparade fil
 
     confirmSavegameDelete:
-        title: Confirm deletion
+        title: Godkänn borttagning
         text: >-
-            Are you sure you want to delete the game?
+            Är du säker på att du vill ta bort den sparade filen?
 
     savegameDeletionError:
-        title: Failed to delete
+        title: Misslyckad borttagning
         text: >-
-            Failed to delete the savegame:
+            Borttagningen av sparad fil misslyckades
 
     restartRequired:
-        title: Restart required
+        title: Omstart krävs
         text: >-
-            You need to restart the game to apply the settings.
+            Starta om spelet för att ändringarna ska gälla.
 
     editKeybinding:
-        title: Change Keybinding
-        desc: Press the key or mouse button you want to assign, or escape to cancel.
+        title: Ändra snabbtangent
+        desc: Tryck på tangentbordsknappen eller musknapp för att ändra, escape för att avbryta.
 
     resetKeybindingsConfirmation:
-        title: Reset keybindings
-        desc: This will reset all keybindings to their default values. Please confirm.
+        title: Återställ snabbtangenter
+        desc: Detta kommer återställa alla snabbtangenter till standard. Vänligen godkänn.
 
     keybindingsResetOk:
-        title: Keybindings reset
-        desc: The keybindings have been reset to their respective defaults!
+        title: Snabbtangenter återställda
+        desc: Snabbtangenterna har blivit återställda till standard!
 
     featureRestriction:
         title: Demo Version
-        desc: You tried to access a feature (<feature>) which is not available in the demo. Consider to get the standalone for the full experience!
+        desc: Du försökte använda en funktion (<feature>) som inte finns tillgänglig i demoversionen. Köp fullversionen för bästa upplevelse!
 
     oneSavegameLimit:
-        title: Limited savegames
-        desc: You can only have one savegame at a time in the demo version. Please remove the existing one or get the standalone!
+        title: Gräns för sparade filer
+        desc: Du kan endast ha en sparad fil åt gången i demoversionen. Vänligen ta bort den existerade filen, eller skaffa fullversionen!
 
     updateSummary:
-        title: New update!
+        title: Ny uppdatering!
         desc: >-
-            Here are the changes since you last played:
+            Uppdateringar sedan du spelade sist:
 
     upgradesIntroduction:
-        title: Unlock Upgrades
+        title: Lås upp uppgraderingar
         desc: >-
-            All shapes you produce can be used to unlock upgrades - <strong>Don't destroy your old factories!</strong>
-            The upgrades tab can be found on the top right corner of the screen.
+            Alla former du skapar kan användas för att låsa upp uppgraderingar - <strong>Ta ej bort gamla fabriker!</strong>
+            Uppgraderingarna finns längst upp till höger.
 
     massDeleteConfirm:
-        title: Confirm delete
+        title: Godkänn borttagning
         desc: >-
-            You are deleting a lot of buildings (<count> to be exact)! Are you sure you want to do this?
+            Du håller på att ta bort många byggnader (<count> för att vara exakt)! Är du säker?
 
     blueprintsNotUnlocked:
-        title: Not unlocked yet
+        title: Ej upplåst än
         desc: >-
-            Blueprints have not been unlocked yet! Complete more levels to unlock them.
+            Ritningar är ej upplåsta än! Klara fler nivåer för att låsa upp.
 
     keybindingsIntroduction:
-        title: Useful keybindings
+        title: Användbara snabbtangenter
         desc: >-
-            This game has a lot of keybindings which make it easier to build big factories.
-            Here are a few, but be sure to <strong>check out the keybindings</strong>!<br><br>
-            <code class='keybinding'>CTRL</code> + Drag: Select area to copy / delete.<br>
-            <code class='keybinding'>SHIFT</code>: Hold to place multiple of one building.<br>
-            <code class='keybinding'>ALT</code>: Invert orientation of placed belts.<br>
+            Det finns många snabbtangenter för att förenkla byggandet av fabrikerna.
+            Här finns några, glöm inte <strong>kika på snabbtangenterna</strong>!<br><br>
+            <code class='keybinding'>CTRL</code> + Drag: Välj yta att kopiera / radera.<br>
+            <code class='keybinding'>SHIFT</code>: Håll in för att placera flera av en byggnad.<br>
+            <code class='keybinding'>ALT</code>: Invertera orientationen på placerade band.<br>
 
     createMarker:
-        title: New Marker
-        desc: Give it a meaningful name, you can also include a <strong>short key</strong> of a shape (Which you can generate <a href="https://viewer.shapez.io" target="_blank">here</a>)
+        title: Ny markör
+        desc: Ge den ett meningsfullt namn, du kan också inkludera en <strong>ikon</strong> på en form (Du kan generera den <a href="https://viewer.shapez.io" target="_blank">här</a>)
 
     markerDemoLimit:
         desc: You can only create two custom markers in the demo. Get the standalone for unlimited markers!
