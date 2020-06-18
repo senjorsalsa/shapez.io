@@ -223,7 +223,7 @@ dialogs:
     updateSummary:
         title: Ny uppdatering!
         desc: >-
-            Uppdateringar sedan du spelade sist:
+            Uppdateringar sedan du spelade sist
 
     upgradesIntroduction:
         title: Lås upp uppgraderingar
@@ -255,81 +255,79 @@ dialogs:
         desc: Ge den ett meningsfullt namn, du kan också inkludera en <strong>ikon</strong> på en form (Du kan generera den <a href="https://viewer.shapez.io" target="_blank">här</a>)
 
     markerDemoLimit:
-        desc: You can only create two custom markers in the demo. Get the standalone for unlimited markers!
+        desc: Du kan endast skapa två markörer i demot. Skaffa den fristående versionen för oändligt!
     massCutConfirm:
-        title: Confirm cut
+        title: Godkänn klipp
         desc: >-
-            You are cutting a lot of buildings (<count> to be exact)! Are you sure you
-            want to do this?
+            Du klipper mångas byggnader (<count> för att vara exakt)! Är du säker?
 
     exportScreenshotWarning:
-        title: Export screenshot
+        title: Exportera skärmklipp
         desc: >-
-            You requested to export your base as a screenshot. Please note that this can
-            be quite slow for a big base and even crash your game!
+            Du begärde en export av din bas som skärmklipp. Notera att det kan ta längre tid för en stor bas och kan även krascha ditt spel!
 
 ingame:
     # This is shown in the top left corner and displays useful keybindings in
     # every situation
     keybindingsOverlay:
-        moveMap: Move
-        selectBuildings: Select area
-        stopPlacement: Stop placement
-        rotateBuilding: Rotate building
-        placeMultiple: Place multiple
-        reverseOrientation: Reverse orientation
-        disableAutoOrientation: Disable auto orientation
-        toggleHud: Toggle HUD
-        placeBuilding: Place building
-        createMarker: Create Marker
-        delete: Destroy
-        pasteLastBlueprint: Paste last blueprint
-        lockBeltDirection: Enable belt planner
-        plannerSwitchSide: Flip planner side
+        moveMap: Flytta
+        selectBuildings: Välj yta
+        stopPlacement: Sluta placera
+        rotateBuilding: Rotera byggnad
+        placeMultiple: Placera fler
+        reverseOrientation: Vänd orientering
+        disableAutoOrientation: Stäng auto-orientering
+        toggleHud: Växla HUD På/Av
+        placeBuilding: Plasera byggnad
+        createMarker: Skapa Markör
+        delete: Rasera
+        pasteLastBlueprint: Klistra in senaste ritning
+        lockBeltDirection: Aktivera bandplanerare
+        plannerSwitchSide: Planerare ändra sida
 
     # Everything related to placing buildings (I.e. as soon as you selected a building
     # from the toolbar)
     buildingPlacement:
         # Buildings can have different variants which are unlocked at later levels,
         # and this is the hint shown when there are multiple variants available.
-        cycleBuildingVariants: Press <key> to cycle variants.
+        cycleBuildingVariants: Tryck på <key> för att ändra variationer.
 
         # Shows the hotkey in the ui, e.g. "Hotkey: Q"
         hotkeyLabel: >-
             Hotkey: <key>
 
         infoTexts:
-            speed: Speed
-            range: Range
-            storage: Storage
-            oneItemPerSecond: 1 item / second
-            itemsPerSecond: <x> items / s
+            speed: Hastighet
+            range: Räckvidd
+            storage: Lager
+            oneItemPerSecond: 1 artikel / sekund
+            itemsPerSecond: <x> artiklar / s
             itemsPerSecondDouble: (x2)
 
-            tiles: <x> tiles
+            tiles: <x> plattor
 
     # The notification when completing a level
     levelCompleteNotification:
         # <level> is replaced by the actual level, so this gets 'Level 03' for example.
-        levelTitle: Level <level>
-        completed: Completed
-        unlockText: Unlocked <reward>!
-        buttonNextLevel: Next Level
+        levelTitle: Nivå <level>
+        completed: Avklarad
+        unlockText: Låst upp <reward>!
+        buttonNextLevel: Nästa Nivå
 
     # Notifications on the lower right
     notifications:
-        newUpgrade: A new upgrade is available!
-        gameSaved: Your game has been saved.
+        newUpgrade: En ny uppgradering finns tillgänglig!
+        gameSaved: Ditt spel har sparats.
 
     # Mass select information, this is when you hold CTRL and then drag with your mouse
     # to select multiple buildings
     massSelect:
-        infoText: Press <keyCut> to cut, <keyCopy> to copy, <keyDelete> to remove and <keyCancel> to cancel.
+        infoText: Tryck <keyCut> för att klippa, <keyCopy> för att kopiera, <keyDelete> för borttagning och <keyCancel> för att avbryta.
 
     # The "Upgrades" window
     shop:
-        title: Upgrades
-        buttonUnlock: Upgrade
+        title: Uppgraderingar
+        buttonUnlock: Uppgradering
 
         # Gets replaced to e.g. "Tier IX"
         tier: Tier <x>
@@ -337,58 +335,58 @@ ingame:
         # The roman number for each tier
         tierLabels: [I, II, III, IV, V, VI, VII, VIII, IX, X]
 
-        maximumLevel: MAXIMUM LEVEL (Speed x<currentMult>)
+        maximumLevel: MAXNIVÅ (Hastighet x<currentMult>)
 
     # The "Statistics" window
     statistics:
-        title: Statistics
+        title: Statistik
         dataSources:
             stored:
-                title: Stored
-                description: Displaying amount of stored shapes in your central building.
+                title: Lagrade
+                description: Visar antal lagrade former i din centrala byggnad.
             produced:
-                title: Produced
-                description: Displaying all shapes your whole factory produces, including intermediate products.
+                title: Producerade
+                description: Visar alla former din fabrik producerar, även mellanliggande produkter.
             delivered:
-                title: Delivered
-                description: Displaying shapes which are delivered to your central building.
-        noShapesProduced: No shapes have been produced so far.
+                title: Levererade
+                description: Visar former som levereras till din centrala byggnad.
+        noShapesProduced: Inga former är producerade än så länge.
 
         # Displays the shapes per minute, e.g. '523 / m'
         shapesPerMinute: <shapes> / m
 
     # Settings menu, when you press "ESC"
     settingsMenu:
-        playtime: Playtime
+        playtime: Speltid
 
-        buildingsPlaced: Buildings
-        beltsPlaced: Belts
+        buildingsPlaced: Byggnader
+        beltsPlaced: Band
 
         buttons:
-            continue: Continue
-            settings: Settings
-            menu: Return to menu
+            continue: Fortsätt
+            settings: Inställningar
+            menu: Tillbaka till menyn
 
     # Bottom left tutorial hints
     tutorialHints:
-        title: Need help?
-        showHint: Show hint
-        hideHint: Close
+        title: Hjälp?
+        showHint: Visa tips
+        hideHint: Stäng
 
     # When placing a blueprint
     blueprintPlacer:
-        cost: Cost
+        cost: Kostnad
 
     # Map markers
     waypoints:
-        waypoints: Markers
+        waypoints: Markörer
         hub: HUB
-        description: Left-click a marker to jump to it, right-click to delete it.<br><br>Press <keybinding> to create a marker from the current view, or <strong>right-click</strong> to create a marker at the selected location.
-        creationSuccessNotification: Marker has been created.
+        description: Vänsterklicka på en markör för att gå dit, högerklicka för borttagning.<br><br>Tryck <keybinding> för att skapa en markör där du befinner dig, eller <strong>högerklicka</strong> för att skapa en markör vid vald plats.
+        creationSuccessNotification: Markör skapad.
 
     # Interactive tutorial
     interactiveTutorial:
-        title: Tutorial
+        title: Guide
         hints:
             1_1_extractor: Place an <strong>extractor</strong> on top of a <strong>circle shape</strong> to extract it!
             1_2_conveyor: >-
